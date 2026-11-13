@@ -4,6 +4,7 @@ from typing import Optional, Literal
 
 
 class BasicInformation(BaseModel):
+    name: Optional[str] = None
     age: Optional[int] = None
     gender: Optional[str] = None
     occupation_lifestyle: Optional[str] = None
@@ -33,6 +34,9 @@ class Ambivalence(BaseModel):
     perceived_disadvantages_of_current_behavior: list[str] = Field(default_factory=list)
     conflicting_goals: list[str] = Field(default_factory=list)
 
+class ProvidedBehaviour(BaseModel):
+    behaviour: str
+    context: Optional[str] = None
 
 class PreviousAttempts(BaseModel):
     attempted_before: Optional[bool] = None
@@ -85,6 +89,10 @@ class PatientProfile(BaseModel):
 
     other_relevant_information: list[str] = Field(
         default_factory=list
+    )
+
+    trainee_provided_behaviour: list[ProvidedBehaviour] = Field(
+    default_factory=list
     )
 
 

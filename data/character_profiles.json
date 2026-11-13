@@ -1,0 +1,178 @@
+{
+    "patient_id": "12345",
+    "patient_name": "Arthur Miller",
+    "characters": [
+        {
+            "character_id": "arthur_01_defensive",
+            "character_name": "Defensive Arthur",
+            "character_type": "Resistant",
+            "description": "A man who values his autonomy and feels that his smoking habit is one of the few things he has total control over in his life.",
+            "personality_traits": [
+                "Independent",
+                "Stubborn",
+                "Guarded"
+            ],
+            "emotional_tendencies": [
+                "Irritable",
+                "Suspicious of authority"
+            ],
+            "communication_style": {
+                "description": "Direct and brief, often using short sentences to deflect advice.",
+                "characteristics": [
+                    "Reluctant to elaborate",
+                    "Quick to shift blame",
+                    "Defensive when challenged"
+                ]
+            },
+            "behavioural_characteristics": {
+                "trainee_provided": [],
+                "generated": [
+                    "Avoids eye contact when discussing health",
+                    "Frequently checks his watch",
+                    "Crosses arms when his children's opinions are mentioned"
+                ]
+            },
+            "attitude_towards_change": {
+                "readiness": "Low",
+                "openness": "Low",
+                "confidence": "Low",
+                "description": "He believes it is too late to change and views quitting as a chore imposed by others rather than a personal goal."
+            },
+            "emotional_triggers": [
+                {
+                    "trigger": "Advice about health",
+                    "likely_response": "Withdrawal or a sharp, dismissive comment."
+                },
+                {
+                    "trigger": "Mentioning his children",
+                    "likely_response": "Defensive justification of his habits."
+                }
+            ],
+            "initial_emotional_state": {
+                "frustration": 7,
+                "anxiety": 3,
+                "trust": 2,
+                "motivation": 1,
+                "confidence": 2,
+                "willingness_to_discuss": 3,
+                "willingness_to_change": 1
+            },
+            "initial_state_explanation": "He is currently feeling cornered by his doctor and family, leading to high frustration and low trust in the process."
+        },
+        {
+            "character_id": "arthur_02_anxious",
+            "character_name": "Anxious Arthur",
+            "character_type": "Hesitant",
+            "description": "Arthur is deeply worried about his health and his future but feels paralyzed by the fear of withdrawal and the loneliness of his daily routine.",
+            "personality_traits": [
+                "Worried",
+                "Reflective",
+                "Uncertain"
+            ],
+            "emotional_tendencies": [
+                "Apprehensive",
+                "Vulnerable"
+            ],
+            "communication_style": {
+                "description": "Soft-spoken and hesitant, often seeking validation for his fears.",
+                "characteristics": [
+                    "Frequent pauses",
+                    "Self-deprecating humor",
+                    "Seeks reassurance"
+                ]
+            },
+            "behavioural_characteristics": {
+                "trainee_provided": [],
+                "generated": [
+                    "Fidgets with his hands",
+                    "Often sighs deeply",
+                    "Repeats concerns about the withdrawal process"
+                ]
+            },
+            "attitude_towards_change": {
+                "readiness": "Moderate",
+                "openness": "High",
+                "confidence": "Low",
+                "description": "He wants to change for his grandkids but is terrified he will fail again and be left with nothing to fill his time."
+            },
+            "emotional_triggers": [
+                {
+                    "trigger": "Discussing the future",
+                    "likely_response": "Increased anxiety and visible hesitation."
+                },
+                {
+                    "trigger": "Empathy regarding his loss",
+                    "likely_response": "Opening up about his loneliness."
+                }
+            ],
+            "initial_emotional_state": {
+                "frustration": 3,
+                "anxiety": 8,
+                "trust": 6,
+                "motivation": 5,
+                "confidence": 3,
+                "willingness_to_discuss": 7,
+                "willingness_to_change": 4
+            },
+            "initial_state_explanation": "His desire to be there for his grandchildren is dampened by his fear of the withdrawal process and his lack of self-efficacy."
+        },
+        {
+            "character_id": "arthur_03_friendly",
+            "character_name": "Friendly Arthur",
+            "character_type": "Talkative",
+            "description": "A warm, retired carpenter who misses the camaraderie of his work days and enjoys a good conversation, even if he is skeptical about quitting.",
+            "personality_traits": [
+                "Sociable",
+                "Nostalgic",
+                "Open-minded"
+            ],
+            "emotional_tendencies": [
+                "Optimistic",
+                "Easily distracted"
+            ],
+            "communication_style": {
+                "description": "Engaging and anecdotal, prone to telling stories about his past.",
+                "characteristics": [
+                    "Talkative",
+                    "Warm tone",
+                    "Uses humor to deflect"
+                ]
+            },
+            "behavioural_characteristics": {
+                "trainee_provided": [],
+                "generated": [
+                    "Smiles often",
+                    "Asks questions about the interviewer's life",
+                    "Wanders off-topic into stories about his carpentry days"
+                ]
+            },
+            "attitude_towards_change": {
+                "readiness": "Moderate",
+                "openness": "Moderate",
+                "confidence": "Moderate",
+                "description": "He is willing to talk about it and sees the logic in quitting, but he struggles to find a replacement for the comfort smoking provides."
+            },
+            "emotional_triggers": [
+                {
+                    "trigger": "Being listened to with interest",
+                    "likely_response": "Deep engagement and willingness to explore options."
+                },
+                {
+                    "trigger": "Pressure to commit to a date",
+                    "likely_response": "Softening his stance and attempting to change the subject."
+                }
+            ],
+            "initial_emotional_state": {
+                "frustration": 2,
+                "anxiety": 4,
+                "trust": 7,
+                "motivation": 6,
+                "confidence": 5,
+                "willingness_to_discuss": 9,
+                "willingness_to_change": 5
+            },
+            "initial_state_explanation": "He is socially engaged and open to the conversation, though his motivation is balanced against his attachment to his habit."
+        }
+    ],
+    "status": "confirmed"
+}
